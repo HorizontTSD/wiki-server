@@ -4,7 +4,7 @@ services:
   outline:
     image: outlinewiki/outline:0.85
     ports:
-      - "8501:3000"
+      - "3000:3000"
     env_file:
       - .env
     depends_on:
